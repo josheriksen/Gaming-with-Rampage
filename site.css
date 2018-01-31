@@ -1,67 +1,23 @@
-body {
-    margin: 0;
-}
-header {
-    height: 140px;
-    color:rgb(255, 244, 224);
-    background-color:rgb(115, 149, 221);
-    padding: 5rem;
-}
-header h1 {
-    margin: 0;
-    font-size: 58pt;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-}
-header span {
-    margin-left: 5rem;
-    font-size: 14pt;
-}
-header img {
+img {
     position:absolute;
-    top:5rem;
-    right:7rem;
+    top:2%;
+    right:15%;
     background-color: rgb(235, 231, 220);
-    box-shadow: 0 0 15px 4px #888888
+    box-shadow: 0 0 15px 4px #888888;
 }
-#navbar {
-    position: absolute;
-    top: 17.5rem;
-    left: 20rem;
+
+@media (max-width: 768px) {
+    img {
+        display: none;
+    }
 }
-button {
-    background-color: rgb(68, 114, 196);
-    color:rgb(255, 255, 255);
-    padding:0.5rem 1.5rem;
-    border-color: rgb(31, 78, 121);
-}
-button.active {
-    font-weight: 700;
-    color: black;
-    border-width: thick;
-}
-button > a:visited {
-    /* color:rgb(85,26,139); */
- color: white;
-}
-#main-content{
-    width: 800px;
-}
-.summary {
-    border: thin solid #888;
-    padding: 5px;
-    width: 500px;
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-bottom: 20px;
-}
-.summary p {
-    margin: 0;
-}
-.summary .label {
-    padding-right: 55px;
-}
-#twitch-embed{
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+
+@media (max-width: 992px) {
+    img {
+        position:absolute;
+        top:2%;
+        right:15%;
+        background-color: rgb(235, 231, 220);
+        box-shadow: 0 0 15px 4px #888888;
+    }
 }
